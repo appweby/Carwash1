@@ -1,0 +1,106 @@
+
+
+/* Table of Content
+==================================================
+	1.0 - Transition
+	1.1 - Store Locator Type 2
+	1.2 - Store Locator Type 1
+	1.3 - eForm / Estimator
+	1.4 - Appointment*/
+
+	/*--------------------------------------------------------------
+	1.0 - Transition
+	--------------------------------------------------------------*/
+	.dt-sc-icon-box.type3.dt-sc-diamond .icon-wrapper:before, .dt-sc-icon-box.type3.dt-sc-diamond .icon-wrapper:after, .dt-sc-icon-box.type12 .icon-wrapper, .dt-sc-icon-box.type13, .dt-sc-icon-box.type14, .dt-sc-icon-box.type1 .large-icon, .dt-sc-icon-box.type5 .icon-wrapper:before, .dt-sc-icon-box.type7 .icon-wrapper span, .dt-sc-icon-box.type3 .icon-wrapper span, .dt-sc-icon-box.type10 .icon-wrapper:before, .dt-sc-icon-box.type10 .icon-wrapper:after, .dt-sc-icon-box.type10 .icon-content h4, .dt-sc-icon-box.type5.rounded .icon-wrapper, .dt-sc-icon-box.type6 .icon-wrapper, .dt-sc-icon-box.type5.no-icon-bg .icon-wrapper, .dt-sc-icon-box.type14 .icon-content h4, .dt-sc-icon-box.type14 .icon-content h4 a, .dt-sc-icon-box.type14 .icon-content h4 a:before, .dt-sc-icon-box.type2 .icon-wrapper, .dt-sc-icon-box.type2 .icon-content h4 { -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; -ms-transition:all 0.3s linear; transition:all 0.3s linear; }
+
+
+	/*----*****---- << Store Locator Type 1 >> ----*****----*/
+			
+	.wpsl-stores-fullwidth-container #wpsl-gmap, .wpsl-stores-fullwidth-container #wpsl-result-list { width:100%; }
+	.wpsl-stores-fullwidth-container #wpsl-wrap { width:400px; }
+	.wpsl-stores-fullwidth-container .wpsl-search-btn-wrap .dt-sc-storesearch-btn { font-family:Fontawesome; }
+	.wpsl-stores-fullwidth-container .dt-sc-advanced-options { display:none; float:left; width:100%; margin:10px 0 0; padding: 20px 15px; background-color: #ffffff; }
+	.wpsl-stores-fullwidth-container .wpsl-input #wpsl-search-input { width: 315px; margin-right:0; float:left; padding:10px 12px; border: none; height: 60px; line-height: 60px; border-radius: 0 !important; }
+	.wpsl-stores-fullwidth-container #wpsl-search-wrap .wpsl-input { width:100%; margin-right:0; position: relative; }
+	.wpsl-stores-fullwidth-container #wpsl-search-wrap .wpsl-search-btn-wrap, #wpsl-search-btn { margin-right:0; }
+	.wpsl-stores-fullwidth-container .dt-sc-toggle-advanced-options { color: #4d4d4d; float: left; height: 60px; padding: 10px; position: relative; width: 100%; background: #fff; line-height: 40px; }
+	
+	.wpsl-stores-fullwidth-container .dt-sc-toggle-advanced-options:hover { color: #4d4d4d; }
+	.wpsl-stores-fullwidth-container .dt-sc-toggle-advanced-options span { color: #fff; float: right; font-size: 20px; height: 60px; line-height: 60px; position: absolute; right: 0; text-align: center; top: 0; width: 60px; }
+	
+	.wpsl-stores-fullwidth-container .wpsl-input label, .wpsl-stores-fullwidth-container #wpsl-radius label, .wpsl-stores-fullwidth-container #wpsl-category label, .wpsl-stores-fullwidth-container #wpsl-results label {     width: 67% !important; }
+
+	.wpsl-stores-fullwidth-container #wpsl-radius, .wpsl-stores-fullwidth-container .wpsl-select-wrap #wpsl-results { width: 100% !important; margin-bottom: 10px; margin-right: 0 !important; }
+	
+	.wpsl-stores-fullwidth-container #wpsl-result-list li p { margin-bottom: 0; }
+	
+	.wpsl-stores-fullwidth-container #wpsl-results .wpsl-dropdown { z-index: 1; }
+	
+	.wpsl-stores-fullwidth-container .wpsl-select-wrap { margin-bottom: 0 !important; }
+	.wpsl-stores-fullwidth-container #wpsl-checkbox-filter { margin-top: 0 !important; }
+	.wpsl-stores-fullwidth-container .wpsl-dropdown { width: 30% !important; border-radius: 0 !important; }
+	.wpsl-stores-fullwidth-container #wpsl-wrap { left: 30px; overflow: hidden; position: absolute; top: 60px; }
+	.wpsl-stores-fullwidth-container #wpsl-wrap #wpsl-stores, .wpsl-stores-fullwidth-container #wpsl-wrap #wpsl-direction-details { height:540px !important; }
+	.wpsl-stores-fullwidth-container .wpsl-select-wrap { width:100%; }
+	.wpsl-stores-fullwidth-container #wpsl-stores .wpsl-store-thumb { border-radius: 0 !important; }
+	.wpsl-stores-fullwidth-container #wpsl-radius { width:58%; }
+	.wpsl-stores-fullwidth-container .wpsl-select-wrap #wpsl-results { width:38%; margin-right:0; }
+	.wpsl-stores-fullwidth-container #wpsl-search-wrap #wpsl-checkbox-filter label { width:100%; margin-right:0; }
+	.wpsl-stores-fullwidth-container #wpsl-checkbox-filter input[type="checkbox"] { float:right; margin:10px 0 0; }
+	.wpsl-stores-fullwidth-container #wpsl-checkbox-filter.wpsl-checkbox-3-columns li { width:100%; margin-right:0; }
+	.wpsl-stores-fullwidth-container #wpsl-search-btn { color:#fff; background-image:none; margin-top: 0; width: 60px; height: 60px; border-radius: 0 !important; }
+	.wpsl-stores-fullwidth-container #wpsl-wrap #wpsl-result-list ul li { margin: 10px 15px 20px; padding:0 0 20px; }
+	.wpsl-stores-fullwidth-container #wpsl-wrap #wpsl-result-list li:last-child { border-bottom: none; }
+	
+	.wpsl-stores-fullwidth-container .wpsl-locations-details { float: left; padding: 15px 10px 0; width: 100%; color: #fff; margin-top:25px; }
+	.wpsl-stores-fullwidth-container .wpsl-locations-details > span { display: block; margin-bottom: 20px; }
+	
+	.wpsl-stores-fullwidth-container .single-wpsl_stores #wpsl-base-gmap_0 { height: 400px; }
+	.wpsl-stores-fullwidth-container .dt-appointment-fix { float:left; padding: 8px 20px  8px 30px !important; position:relative; margin: 0; }
+	.wpsl-stores-fullwidth-container #wpsl-stores .wpsl-directions { float: right; padding: 4px 10px 4px 25px; position:relative; color: #fff; }
+	.wpsl-stores-fullwidth-container #wpsl-stores li > p span { color: #fff; display: block; padding: 4px 7px; }
+	.wpsl-stores-fullwidth-container #wpsl-stores li > p, .wpsl-stores-fullwidth-container #wpsl-stores li > p ~ .wpsl-directions { clear: both; display: inline-block; width: 50%;  border-width: 0 1px; border-style: solid; border-color: transparent; text-align: center; }
+	.wpsl-stores-fullwidth-container #wpsl-stores li > div { float: left; width: 100%; }
+	.wpsl-stores-fullwidth-container #wpsl-stores li > div p a { display: block; margin-bottom: 10px; }
+	.wpsl-stores-fullwidth-container #wpsl-stores li > a:before { font-family:FontAwesome; position:absolute; left:35px; top: 50%; transform: translateY(-50%); -moz-transform: translateY(-50%); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); }
+	.wpsl-stores-fullwidth-container #wpsl-stores li > a.dt-appointment-fix:before { content:"\f044"; }
+	.wpsl-stores-fullwidth-container #wpsl-stores li > a.wpsl-directions:before { content:"\f124"; }
+	
+	.wpsl-stores-fullwidth-container #wpsl-search-btn, .wpsl-stores-fullwidth-container #wpsl-search-wrap input { border: none; }
+	
+	.wpsl-stores-fullwidth-container #wpsl-wrap .wpsl-selected-item, .wpsl-dropdown { color: #fff; }
+	.wpsl-stores-fullwidth-container .wpsl-selected-item:after { border-top: 8px solid #fff !important; }
+	.wpsl-stores-fullwidth-container .wpsl-active .wpsl-selected-item::after { border-bottom: 8px solid #fff !important; border-top: none !important; margin-top: -5px; }
+	
+	.wpsl-stores-fullwidth-container #wpsl-result-list { background: #f4f3f3; }
+	
+	.wpsl-stores-fullwidth-container #wpsl-search-btn { margin-right: 0; }
+	
+	 @media only screen and (max-width: 767px) {
+		.wpsl-stores-fullwidth-container #wpsl-wrap { width: 80%; left: 0; margin: 0 auto; right: 0; }	
+		.wpsl-stores-fullwidth-container .wpsl-input #wpsl-search-input { width: 100%; }
+		#wpsl-search-wrap #wpsl-search-btn { position: absolute; top:0; margin:0 !important; right:0; }
+	 }
+	 
+	 @media only screen and (max-width: 467px) {	
+	 
+		.wpsl-stores-fullwidth-container #wpsl-wrap { font-size: 14px; }
+		.wpsl-stores-fullwidth-container .wpsl-search-btn-wrap { clear: none; }
+		.wpsl-stores-fullwidth-container #wpsl-search-wrap #wpsl-search-btn { position: absolute; right: 0; margin: 0 !important; }
+		.wpsl-stores-fullwidth-container .wpsl-input #wpsl-search-input { width: 100% !important; } 
+	 }		 
+	 
+	 /*----*****---- << eForm / Estimator >> ----*****----*/
+	 
+	 #ipt_fsqm_form_wrap_2 .ipt-eform-content { margin-bottom: 60px; }
+	 
+	.ipt-uif-custom-material-default .ipt_uif_question .ipt_uif_thumbselect_wrap .ui-widget-content { border-radius: 50%; }
+	.ipt-uif-custom-material-default .ipt_uif_question .ipt_uif_thumbselect_wrap>input:checked+label img { opacity: 0.3 !important; }
+	.ipt-uif-custom-material-default .ipt_uif_thumbselect_wrap [type="radio"]:not(:checked)+label, .ipt-uif-custom-material-default .ipt_uif_thumbselect_wrap [type="radio"]:checked+label { margin-left: 35px; padding: 0 !important; }
+	.ipt-uif-custom-material-default .ipt_uif_thumbselect_wrap [type="radio"]+label:before { top: 20px; visibility: hidden; }
+	.ipt-uif-custom-material-default .ipt_uif_thumbselect_wrap [type="radio"]:checked+label:after { line-height: 70px !important; } 
+	.ipt-uif-custom-material-default .ipt_uif_thumbselect_wrap [type="radio"]+label:after { top: 10px !important; left: 0 !important; right: 0 !important; margin: 0 auto !important; width: 80px !important; height: 80px !important; }
+	
+	/*----*****---- << Appointment >> ----*****----*/
+	
+	#ipt_fsqm_form_wrap_3 .ipt-eform-content { margin-bottom: 60px; }
